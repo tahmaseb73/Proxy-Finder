@@ -95,4 +95,4 @@ jobs:
         run: dotnet restore App/UniversalProxyFinder.csproj
 
       - name: Run Proxy Finder Engine
-        run: dotnet run --project App/UniversalProxyFinder.csproj --configuration Release
+        run: dotnet run --project App/ProxyFinder.csproj --configuration Release

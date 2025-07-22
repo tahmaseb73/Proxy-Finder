@@ -9,8 +9,8 @@ using SingBoxLib.Runtime.Testing;
 using System.Collections.Concurrent;
 using System.Text;
 using System.Text.Json;
-using UniversalProxyFinder.Config;
-using UniversalProxyFinder.Models;
+using ProxyFinder.Config;
+using ProxyFinder.Models;
 
 namespace ProxyFinder.Core;
 

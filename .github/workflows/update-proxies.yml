@@ -92,7 +92,7 @@ jobs:
           sudo apt-get -f install -y
 
       - name: Restore Dependencies
-        run: dotnet restore App/UniversalProxyFinder.csproj
+        run: dotnet restore App/ProxyFinder.csproj
 
       - name: Run Proxy Finder Engine
         run: dotnet run --project App/ProxyFinder.csproj --configuration Release
